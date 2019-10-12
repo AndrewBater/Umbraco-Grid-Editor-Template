@@ -12,6 +12,6 @@
         "~/App_Plugins/$fileinputname$Editor/Scripts/$name$.$fileinputname$Editor.controller.js"
     ],
     css: [
-        "~App_Plugins/$fileinputname$Editor/Styles/$fileinputname$Editor.css"
+        "~/App_Plugins/$fileinputname$Editor/Styles/$fileinputname$Editor.css"
     ]
 }
