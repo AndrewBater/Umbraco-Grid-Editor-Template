@@ -9,6 +9,9 @@
         }
     ],
     javascript: [
-        '~/App_Plugins/$fileinputname$/Scripts/$name$.$fileinputname$.controller.js'
+        "~/App_Plugins/$fileinputname$/Scripts/$name$.$fileinputname$.controller.js"
+    ],
+    css: [
+        "~App_Plugins/$fileinputname$/Styles/$fileinputname$.css"
     ]
 }

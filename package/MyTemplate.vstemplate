@@ -11,10 +11,11 @@
         <References />
         <ProjectItem SubType="" TargetFileName="$fileinputname$/package.manifest" ReplaceParameters="true">package.manifest</ProjectItem>
         <ProjectItem SubType="" TargetFileName="$fileinputname$/Scripts/$name$.$fileinputname$.controller.js" ReplaceParameters="true">editor.controller.js</ProjectItem>
+        <ProjectItem SubType="" TargetFileName="$fileinputname$/Styles/$fileinputname$.css" ReplaceParameters="true">style.css</ProjectItem>
         <ProjectItem SubType="" TargetFileName="$fileinputname$/Views/$fileinputname$.edit.html" ReplaceParameters="true">edit.html</ProjectItem>
         <ProjectItem SubType="" TargetFileName="$fileinputname$/Views/$fileinputname$.render.cshtml" ReplaceParameters="true">render.cshtml</ProjectItem>
+        <CustomParameters>
+            <CustomParameter Name="$name$" Value="Andrew.Bater" />
+        </CustomParameters>
     </TemplateContent>
-    <CustomParameters>
-        <CustomParameter Name="$name$" Value="NAME" />
-    </CustomParameters>
 </VSTemplate>
