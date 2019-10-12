@@ -1,10 +1,10 @@
 (function () {
     "use strict";
 
-    function $fileinputname$Controller() {
+    function $fileinputname$EditorController() {
         var vm = this;
 
     }
 
-    angular.module("umbraco").controller("$name$.$fileinputname$Controller", $fileinputname$Controller);
+    angular.module("umbraco").controller("$name$.$fileinputname$EditorController", $fileinputname$EditorController);
 })();

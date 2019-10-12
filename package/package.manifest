@@ -1,17 +1,17 @@
 {
 	gridEditors: [
         {
-        "alias": "$name$.$fileinputname$",
-        "name": "$fileinputname$",
+        "alias": "$name$.$fileinputname$Editor",
+        "name": "$fileinputname$Editor",
         "icon": "icon-umb-content",
-        "view": "~/App_Plugins/$fileinputname$/Views/$fileinputname$.editor.html",
-        "render": "~/App_Plugins/$fileinputname$/Views/$fileinputname$.render.cshtml"
+        "view": "~/App_Plugins/$fileinputname$/Views/$fileinputname$Editor.html",
+        "render": "$fileinputname$"
         }
     ],
     javascript: [
-        "~/App_Plugins/$fileinputname$/Scripts/$name$.$fileinputname$.controller.js"
+        "~/App_Plugins/$fileinputname$/Scripts/$name$.$fileinputname$Editor.controller.js"
     ],
     css: [
-        "~App_Plugins/$fileinputname$/Styles/$fileinputname$.css"
+        "~App_Plugins/$fileinputname$/Styles/$fileinputname$Editor.css"
     ]
 }
