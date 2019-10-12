@@ -1,0 +1,20 @@
+<VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Item">
+    <TemplateData>
+        <DefaultName>GridEditor</DefaultName>
+        <Name>Umbraco Grid Editor</Name>
+        <Description>Generates an umbraco plugin with file/folder structure for a grid editor</Description>
+        <ProjectType>CSharp</ProjectType>
+        <SortOrder>1</SortOrder>
+        <Icon>umbraco-icon.bmp</Icon>
+    </TemplateData>
+    <TemplateContent>
+        <References />
+        <ProjectItem SubType="" TargetFileName="$fileinputname$/package.manifest" ReplaceParameters="true">package.manifest</ProjectItem>
+        <ProjectItem SubType="" TargetFileName="$fileinputname$/Scripts/$name$.$fileinputname$.controller.js" ReplaceParameters="true">editor.controller.js</ProjectItem>
+        <ProjectItem SubType="" TargetFileName="$fileinputname$/Views/$fileinputname$.edit.html" ReplaceParameters="true">edit.html</ProjectItem>
+        <ProjectItem SubType="" TargetFileName="$fileinputname$/Views/$fileinputname$.render.cshtml" ReplaceParameters="true">render.cshtml</ProjectItem>
+    </TemplateContent>
+    <CustomParameters>
+        <CustomParameter Name="$name$" Value="NAME" />
+    </CustomParameters>
+</VSTemplate>

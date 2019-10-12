@@ -1,0 +1,14 @@
+{
+	gridEditors: [
+        {
+        "alias": "$name$.$fileinputname$",
+        "name": "$fileinputname$",
+        "icon": "icon-umb-content",
+        "view": "~/App_Plugins/$fileinputname$/Views/$fileinputname$.editor.html",
+        "render": "~/App_Plugins/$fileinputname$/Views/$fileinputname$.render.cshtml"
+        }
+    ],
+    javascript: [
+        '~/App_Plugins/$fileinputname$/Scripts/$name$.$fileinputname$.controller.js'
+    ]
+}
