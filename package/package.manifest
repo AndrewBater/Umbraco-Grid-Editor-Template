@@ -2,7 +2,7 @@
 	gridEditors: [
         {
         "alias": "$name$.$fileinputname$Editor",
-        "name": "$fileinputname$Editor",
+        "name": "$fileinputname$",
         "icon": "icon-umb-content",
         "view": "~/App_Plugins/$fileinputname$Editor/Views/$fileinputname$Editor.html",
         "render": "$fileinputname$"
