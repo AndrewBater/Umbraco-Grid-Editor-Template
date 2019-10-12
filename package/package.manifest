@@ -4,7 +4,7 @@
         "alias": "$name$.$fileinputname$Editor",
         "name": "$fileinputname$Editor",
         "icon": "icon-umb-content",
-        "view": "~/App_Plugins/$fileinputname$/Views/$fileinputname$Editor.html",
+        "view": "~/App_Plugins/$fileinputname$Editor/Views/$fileinputname$Editor.html",
         "render": "$fileinputname$"
         }
     ],
