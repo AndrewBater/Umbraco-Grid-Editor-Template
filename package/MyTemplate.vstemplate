@@ -15,7 +15,7 @@
         <ProjectItem SubType="" TargetFileName="$fileinputname$Editor/Views/$fileinputname$Editor.html" ReplaceParameters="true">edit.html</ProjectItem>
         <ProjectItem SubType="" TargetFileName="/Views/Partials/Grid/Editors/$fileinputname$.cshtml" ReplaceParameters="true">render.cshtml</ProjectItem>
         <CustomParameters>
-            <CustomParameter Name="$name$" Value="Andrew.Bater" />
+            <CustomParameter Name="$name$" Value="AndrewBater" />
         </CustomParameters>
     </TemplateContent>
 </VSTemplate>
